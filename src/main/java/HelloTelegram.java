@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class HelloTelegram {
 
     public static void main(String[] args) {
-        TelegramBot bot = new TelegramBot("5535379102:AAEJbG_JamMzi-q4epNOdcQpQhp2ExZlDbo");
+        TelegramBot bot = new TelegramBot("Token");
 
         bot.setUpdatesListener(updates -> {
             updates.forEach(upd -> {
